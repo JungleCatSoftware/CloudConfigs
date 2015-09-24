@@ -1,5 +1,5 @@
 CONFIG_MANAGER="puppet"
-PUPPET_MODULES=(
+CONFIG_MODULES=(
 "forge:puppetlabs-stdlib"
 "forge:jfryman-nginx@0.2.6"
 "github:puppetlabs/puppetlabs-apt@1.8.x"
