@@ -2,5 +2,6 @@ CONFIG_MANAGER="puppet"
 CONFIG_MODULES=(
 "forge:puppetlabs-stdlib"
 "forge:jfryman-nginx@0.2.6"
-"github:puppetlabs/puppetlabs-apt@1.8.x"
+"github:puppetlabs/puppetlabs-firewall@1.6.x"
+"github:camptocamp/puppet-openssl"
 )
