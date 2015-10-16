@@ -1,4 +1,5 @@
 CONFIG_MANAGER="puppet"
+PUPPET_LIBRARIAN_FILE="github:JungleCatSoftware/CloudConfigs/example/Puppetfile@master"
 PUPPET_MODULES=(
 "forge:puppetlabs-stdlib"
 "forge:jfryman-nginx@0.2.6"
