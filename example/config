@@ -6,8 +6,8 @@ PUPPET_MODULES=(
 "github:puppetlabs/puppetlabs-firewall@1.6.x"
 "github:camptocamp/puppet-openssl"
 )
-HIERA_FORMAT="yaml"
-HIERA_FILES=(
-"github:JungleCatSoftware/CloudConfigs/example/hiera/example.yaml"
-"github:JungleCatSoftware/CloudConfigs/common/hiera/default.yaml"
+HIERA_FILE="github:JungleCatSoftware/CloudConfigs/example/hiera.yaml"
+HIERA_DATA_FILES=(
+"github:JungleCatSoftware/CloudConfigs/example/hiera/example.yaml|/etc/puppet/hieradata/example.yaml"
+"github:JungleCatSoftware/CloudConfigs/common/hiera/default.yaml|/etc/puppet/hieradata/default.yaml"
 )
