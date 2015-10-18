@@ -3,3 +3,6 @@ forge "https://forgeapi.puppetlabs.com"
 mod "puppetlabs/apt"
 mod "puppetlabs/mysql"
 mod "puppetlabs/ntp"
+mod "junglecatsoftware/examplesite",
+  :git => "git://github.com/JungleCatSoftware/CloudConfigs.git",
+  :path => "example/modules/examplesite"
